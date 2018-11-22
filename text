@@ -1,5 +1,7 @@
 .tl "A single quantum cannot be cloned"
-.2c
+.2c 5n 
+.po .7i
+.ll 3.3i
 .pp
 .b
 If a photon of definite polarization encounters an excited atom,
@@ -8,17 +10,17 @@ stimulated emission. Such a photon is guaranteed to have the same polarization a
 photon. But is it possible by thls or any other process to amplify a quantum state, that is, to 
 produce several copies of a quantum system (the polarized photon in the present case) each having 
 the same state as the original? If it were, the amplifying process could be used to ascertain the 
-exact state of a quantum system:  in the case of a  photon,  one  could  determine  lts  
-polarization by first producing  a beam  of  identically  polarized  copies  and
-then measuring the Stokes parameters1  We show here that the llnearity  of  quantum  mechanics  
-forbids  such  replication  and that  this conclusion holds for all quantum  systems.
+exact state of a quantum system: in the case of a photon, one could determine its 
+polarization by first producing a beam of identically polarized copies and
+then measuring the Stokes parameters1 We show here that the llnearity of quantum mechanics 
+forbids such replication and that this conclusion holds for all quantum systems.
 .pp
-Note that  if photons could  be cloned,  a  plausible  argument
-could be made for the possibility of faster-than-light communication2  . It is well  known  that 
-for certain  non-separably  correlated Einstein-Podolsky-Rosen pairs of photons, once an observer 
+Note that if photons could be cloned, a plausible argument
+could be made for the possibility of faster-than-light communication2 . It is well known that 
+for certain non-separably correlated Einstein-Podolsky-Rosen pairs of photons, once an observer 
 has made a polarization measurement (say, vertical versus horizontal) on one member of the pair, 
 the other one, which may be far away, can be for all purposes of prediction regarded as having the 
-same polarization3  If this second photon could be replicated and its precise polarization 
+same polarization3 If this second photon could be replicated and its precise polarization 
 measured as above, it would be possible to ascertain whether, for example, the first photon had 
 been subjected to a measurement of linear or circular polarization. In this way the first observer 
 would be able to transmit information faster than light by encoding his message into bis choice of 
@@ -29,22 +31,22 @@ of quantum mechanics 9
 .EQ
 delim $$
 define > `\(ra`
-define <-> `\(<>`
+define dagger `sup {\(dg}`
 .EN
 .pp
-A perfect amplifying device would  have the following  effect
-on an incoming photon  with polarization  state $ | s > $:
+A perfect amplifying device would have the following effect
+on an incoming photon with polarization state $ | s > $:
 .EQ (1)
 |A sub 0 > | s > -> | s > +- | A sub s > | ss > 
 .EN
 
 .pp
-Here $ | A sub 0 > $ is the `ready' state of the  apparatus,  
-and $ | A sub s > $ is its final state, which may or may  
-not depend on the polarization of the original photon. The symbol $| ss > $ refers to the state  of 
-the radiation  field in which there are two photons each having
-the polarization $| s > $. Let us suppose that such an amplification can  in fact  be accomplished  for  
-the vertical  polarization $ | V > $ and for the horizontal polarization $ | H > $. That is,
+Here $ | A sub 0 > $ is the `ready' state of the apparatus, 
+and $ | A sub s > $ is its final state, which may or may 
+not depend on the polarization of the original photon. The symbol $| ss > $ refers to the state of 
+the radiation field in which there are two photons each having
+the polarization $| s > $. Let us suppose that such an amplification can in fact be accomplished for 
+the vertical polarization $ | V > $ and for the horizontal polarization $ | H > $. That is,
 .EQ (2)
 | A sub 0 > | V > -> | A sub v > | V V >
 .EN
@@ -53,33 +55,42 @@ and
 | A sub 0 > | H > -> | A sub h > | H H >
 .EN
 .pp
-According  to  quantum  mechanics  this  transformation  should
+According to quantum mechanics this transformation should
 be representable by a linear (in fact unitary) operator. It therefore follows that if the 
 incoming photon has the polarization given by the linear combination 
 $ alpha~| V > + beta~| H > $ - for example, it 
 could be linearly polarized in a direction 45\(de from the vertical, so that $ alpha = beta = 2 sup {-1/2} $ the 
-result of its interaction with the apparatus will be the superposition  of equations (2)  and  (3):
-*** (4)
+result of its interaction with the apparatus will be the superposition of equations (2) and (3):
+.EQ (4)
+| A sub 0 > ( alpha~ | V > + beta ~| H > ) -> 
+alpha~ | A sub v > | VV > + beta ~ | A sub h > | HH > 
+.EN
 .pp
-If  the apparatus states IAvc,,) and IAh 0   , )    are not identical, then the two photons 
-emerging from the apparatus are in a mixed state of polarization. If these apparatus  states  are  
-identical,  then  the two photons are in  the pure  state
-*** (5)
+If the apparatus states $ | A sub v > $ and $ | A sub h > $ are not identical, 
+then the two photons emerging from the apparatus are in a mixed state of polarization. 
+If these apparatus states are identical, then the two photons are in the pure state
+.EQ (5)
+alpha ~| VV > + beta ~| HH >
+.EN
 .pp
 In neither of these cases is the final state the same as the state
-with two photons both having the polarization  alt  )+l++). That state, the one which would be 
-required  if the apparatus were tobe a perfect  amplifier, can be written as
-***
+with two photons both having the polarization $ alpha ~| V > + beta ~| H > $. 
+That state, the one which would be required if the apparatus were to be a perfect 
+amplifier, can be written as
+.EQ
+2 sup {-1/2} ( alpha a sub v dagger + beta a sub h dagger ) sup 2 | 0 > =
+alpha sup 2 | VV > + 2 sup {1/2} alpha beta | VH > + beta sup 2 | HH >
+.EN
+which is a pure state different from the one obtained above by superposition [equation (5)).
+Thus no apparatus exists which will amplify an arbitrary polarization. 
+The above argument does not rule out the possibility of a device which can amplify 
+two special polarizations, such as vertical and horizontal. 
+Indeed, any measuring device which distinguishes between these two polarizations, 
+a Nicol prism for example, could be used to trigger such an amplification.
 .pp
-which is a pure state different from the one obtained above by superposition  [equation (5)).
-Thus no apparatus exists which will amplify  an arbitrary
-polarization. The above argument does not rule out the possibility of a device which can amplify 
-two special polarizations, such as vertical and horizontal. Indeed, any measuring device which 
-distinguishes between these  two polarizations, a Nicol prism for example, could  be used to 
-trigger such an amplification.
 The same argument can be applied to any other kind of quantum system. As in the case of photons, 
 linearity does not forbid the amplification of any given state by a device designed especially for 
-that state, but it does rule out the existence of a device capable of  amplifying an arbitrary  
+that state, but it does rule out the existence of a device capable of amplifying an arbitrary 
 state.
 .pp
 Milonni (unpublished work) has shown that the process of stimulated emission does not lead to 
@@ -92,19 +103,19 @@ argument. We have there fore presented the above simple argument, based on the i
 quantum mechanics, to show that no apparatus, however complicated, can amplify an arbitrary 
 polarization.
 .pp
-We stress that  the question  of  replicating  individual photons
-is  of  practical  interest.  It is obviously  closely  related  to the
+We stress that the question of replicating individual photons
+is of practical interest. It is obviously closely related to the
 quantum limits on the noise in amplifiers (10 11). Moreover, an experiment devised to establish the 
 extent to which polarization of single photons can be replicated through the process of stimulated 
 emission is under way (A. Gozzini, personal communication; and see ref. 12). The quantum 
-mechanical prediction is quite definite; for each perfect clone there is also one randomly  
-polarized,  spontaneously  emitted, photon.
+mechanical prediction is quite definite; for each perfect clone there is also one randomly 
+polarized, spontaneously emitted, photon.
 .pp
 We thank Alain Aspect, Carl Caves, Ron Dickman, Ted Jacobson, Peter Milonni, Marlan Scully, Pierre 
 Meystre, Don Page and John Archibald Wheeler for enjoyable and stimulating discussions.
 .pp
 This work was supported in part by the NSF (PHY 78-26592 and AST 79-22012-Al). W.H.Z. acknowledges 
-a Richard Chace Tolman  Fellowship.
+a Richard Chace Tolman Fellowship.
 
 
 
