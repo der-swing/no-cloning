@@ -7,12 +7,12 @@
 If a photon of definite polarization encounters an excited atom,
 there is typically some nonvanishing probability that the atom will emit a second photon by 
 stimulated emission. Such a photon is guaranteed to have the same polarization as the original 
-photon. But is it possible by thls or any other process to amplify a quantum state, that is, to 
+photon. But is it possible by this or any other process to amplify a quantum state, that is, to 
 produce several copies of a quantum system (the polarized photon in the present case) each having 
 the same state as the original? If it were, the amplifying process could be used to ascertain the 
 exact state of a quantum system: in the case of a photon, one could determine its 
 polarization by first producing a beam of identically polarized copies and
-then measuring the Stokes parameters1 We show here that the llnearity of quantum mechanics 
+then measuring the Stokes parameters1 We show here that the linearity of quantum mechanics 
 forbids such replication and that this conclusion holds for all quantum systems.
 .pp
 Note that if photons could be cloned, a plausible argument
@@ -23,8 +23,8 @@ the other one, which may be far away, can be for all purposes of prediction rega
 same polarization3 If this second photon could be replicated and its precise polarization 
 measured as above, it would be possible to ascertain whether, for example, the first photon had 
 been subjected to a measurement of linear or circular polarization. In this way the first observer 
-would be able to transmit information faster than light by encoding his message into bis choice of 
-measurement. The actual impossibil ity of cloning photons, shown below, thus prohibits super 
+would be able to transmit information faster than light by encoding his message into his choice of 
+measurement. The actual impossibility of cloning photons, shown below, thus prohibits super 
 luminal communication by this scheme. That such a scheme must fail for some reason despite the 
 well-established existence of long-range quantum correlations6 8 , is a general consequence
 of quantum mechanics 9
@@ -94,12 +94,12 @@ that state, but it does rule out the existence of a device capable of amplifying
 state.
 .pp
 Milonni (unpublished work) has shown that the process of stimulated emission does not lead to 
-quantum amplification, because if there isstimulated emission there must also be-with equal 
-probability in the case of one incoming photon-spon taneous emission, and the polarization of a 
+quantum amplification, because if there is stimulated emission there must also be - with equal 
+probability in the case of one incoming photon - spontaneous emission, and the polarization of a 
 spontaneously emit ted photon is entirely independent of the polarization of the original.
 .pp
 It is conceivable that a more sophisticated amplifying apparatus could get around Milonni's 
-argument. We have there fore presented the above simple argument, based on the iinearity of 
+argument. We have there fore presented the above simple argument, based on the linearity of 
 quantum mechanics, to show that no apparatus, however complicated, can amplify an arbitrary 
 polarization.
 .pp
