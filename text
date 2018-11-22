@@ -1,4 +1,8 @@
 .tl "A single quantum cannot be cloned"
+.R1
+accumulate
+bracket-label " ("  ) ", "
+.R2
 .2c 5n 
 .po .7i
 .ll 3.3i
@@ -12,19 +16,32 @@ produce several copies of a quantum system (the polarized photon in the present 
 the same state as the original? If it were, the amplifying process could be used to ascertain the 
 exact state of a quantum system: in the case of a photon, one could determine its 
 polarization by first producing a beam of identically polarized copies and
-then measuring the Stokes parameters1 We show here that the linearity of quantum mechanics 
+then measuring the Stokes parameters.
+.[
+born1970
+.]
+We show here that the linearity of quantum mechanics 
 forbids such replication and that this conclusion holds for all quantum systems.
 .pp
 Note that if photons could be cloned, a plausible argument
-could be made for the possibility of faster-than-light communication2 . It is well known that 
-for certain non-separably correlated Einstein-Podolsky-Rosen pairs of photons, once an observer 
-has made a polarization measurement (say, vertical versus horizontal) on one member of the pair, 
-the other one, which may be far away, can be for all purposes of prediction regarded as having the 
-same polarization3 If this second photon could be replicated and its precise polarization 
-measured as above, it would be possible to ascertain whether, for example, the first photon had 
-been subjected to a measurement of linear or circular polarization. In this way the first observer 
-would be able to transmit information faster than light by encoding his message into his choice of 
-measurement. The actual impossibility of cloning photons, shown below, thus prohibits super 
+could be made for the possibility of faster-than-light communication.
+.[
+herbert1982
+.]
+It is well known that for certain non-separably correlated Einstein-Podolsky-Rosen 
+pairs of photons, once an observer has made a polarization measurement 
+(say, vertical versus horizontal) on one member of the pair, 
+the other one, which may be far away, can be for all purposes of prediction 
+regarded as having the same polarization.
+.[
+epr1935
+.]
+If this second photon could be replicated and its precise polarization measured 
+as above, it would be possible to ascertain whether, for example, the first 
+photon had been subjected to a measurement of linear or circular polarization. 
+In this way the first observer would be able to transmit information faster than 
+light by encoding his message into his choice of measurement. 
+The actual impossibility of cloning photons, shown below, thus prohibits super 
 luminal communication by this scheme. That such a scheme must fail for some reason despite the 
 well-established existence of long-range quantum correlations6 8 , is a general consequence
 of quantum mechanics 9
