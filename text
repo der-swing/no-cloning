@@ -37,7 +37,7 @@ define dagger `sup {\(dg}`
 A perfect amplifying device would have the following effect
 on an incoming photon with polarization state $ | s > $:
 .EQ (1)
-|A sub 0 > | s > -> | s > +- | A sub s > | ss > 
+|A sub 0 > | s > -> | A sub s > | ss > 
 .EN
 
 .pp
