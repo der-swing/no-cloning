@@ -1,4 +1,16 @@
-.tl "A single quantum cannot be cloned"
+.de HD
+.sp
+.ps \\$1
+.ce
+.ft B
+\\$2
+.ps
+.ft P
+.sp
+..
+
+.HD 12 "A single quantum cannot be cloned"
+.hl
 .R1
 accumulate
 bracket-label " ("  ) ", "
@@ -6,6 +18,8 @@ bracket-label " ("  ) ", "
 .2c 5n 
 .po .7i
 .ll 3.3i
+.nr pi 2n
+.nr ps 30
 .pp
 .b
 If a photon of definite polarization encounters an excited atom,
@@ -44,7 +58,10 @@ light by encoding his message into his choice of measurement.
 The actual impossibility of cloning photons, shown below, thus prohibits super 
 luminal communication by this scheme. That such a scheme must fail for some reason despite the 
 well-established existence of long-range quantum correlations6 8 , is a general consequence
-of quantum mechanics 9
+of quantum mechanics.
+.[
+bussey1982
+.]
 .EQ
 delim $$
 define > `\(ra`
@@ -122,7 +139,14 @@ polarization.
 .pp
 We stress that the question of replicating individual photons
 is of practical interest. It is obviously closely related to the
-quantum limits on the noise in amplifiers (10 11). Moreover, an experiment devised to establish the 
+quantum limits on the noise in amplifiers.
+.[
+haus1962
+.]
+.[
+caves1982
+.]
+Moreover, an experiment devised to establish the 
 extent to which polarization of single photons can be replicated through the process of stimulated 
 emission is under way (A. Gozzini, personal communication; and see ref. 12). The quantum 
 mechanical prediction is quite definite; for each perfect clone there is also one randomly 
@@ -133,20 +157,3 @@ Meystre, Don Page and John Archibald Wheeler for enjoyable and stimulating discu
 .pp
 This work was supported in part by the NSF (PHY 78-26592 and AST 79-22012-Al). W.H.Z. acknowledges 
 a Richard Chace Tolman Fellowship.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
