@@ -9,23 +9,31 @@
 .sp
 ..
 
-.HD 12 "A single quantum cannot be cloned"
-.hl
 .R1
 accumulate
 bracket-label " ("  ) ", "
 .R2
+.fo ''\n%'' \h'|108000u'\c
 .EQ
 delim $$
 define > `\(ra`
 define dagger `sup {\(dg}`
 .EN
+
+
+.HD 12 "A single quantum cannot be cloned"
+.hl
+
+
 .2c 5n 
 .po .7i
 .ll 3.3i
 .nr pi 2n
 .nr ps 30
 .nr eq 0 1
+.ar
+
+
 .pp
 .b
 If a photon of definite polarization encounters an excited atom,
@@ -63,8 +71,17 @@ In this way the first observer would be able to transmit information faster than
 light by encoding his message into his choice of measurement. 
 The actual impossibility of cloning photons, shown below, thus prohibits super 
 luminal communication by this scheme. That such a scheme must fail for some reason despite the 
-well-established existence of long-range quantum correlations6 8 , is a general consequence
-of quantum mechanics.
+well-established existence of long-range quantum correlations,
+.[
+freedman1972
+.]
+.[
+fry
+.]
+.[
+aspect
+.]
+is a general consequence of quantum mechanics.
 .[
 bussey1982
 .]
