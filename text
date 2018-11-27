@@ -92,8 +92,9 @@ and
 According to quantum mechanics this transformation should
 be representable by a linear (in fact unitary) operator. It therefore follows that if the 
 incoming photon has the polarization given by the linear combination 
-$ alpha~| V > + beta~| H > $ - for example, it 
-could be linearly polarized in a direction 45\(de from the vertical, so that $ alpha = beta = 2 sup {-1/2} $ the 
+$ alpha~| V > + beta~| H > $ \- for example, it 
+could be linearly polarized in a direction 45\(de from the vertical, 
+so that $ alpha = beta = 2 sup {-1/2} $ \- the result
 result of its interaction with the apparatus will be the superposition of equations (2) and (3):
 .EQ (\n+(eq)
 | A sub 0 > ( alpha~ | V > + beta ~| H > ) -> 
