@@ -15,11 +15,17 @@
 accumulate
 bracket-label " ("  ) ", "
 .R2
+.EQ
+delim $$
+define > `\(ra`
+define dagger `sup {\(dg}`
+.EN
 .2c 5n 
 .po .7i
 .ll 3.3i
 .nr pi 2n
 .nr ps 30
+.nr eq 0 1
 .pp
 .b
 If a photon of definite polarization encounters an excited atom,
@@ -62,18 +68,12 @@ of quantum mechanics.
 .[
 bussey1982
 .]
-.EQ
-delim $$
-define > `\(ra`
-define dagger `sup {\(dg}`
-.EN
 .pp
 A perfect amplifying device would have the following effect
 on an incoming photon with polarization state $ | s > $:
-.EQ (1)
+.EQ (\n+(eq)
 |A sub 0 > | s > -> | A sub s > | ss > 
 .EN
-
 .pp
 Here $ | A sub 0 > $ is the `ready' state of the apparatus, 
 and $ | A sub s > $ is its final state, which may or may 
@@ -81,11 +81,11 @@ not depend on the polarization of the original photon. The symbol $| ss > $ refe
 the radiation field in which there are two photons each having
 the polarization $| s > $. Let us suppose that such an amplification can in fact be accomplished for 
 the vertical polarization $ | V > $ and for the horizontal polarization $ | H > $. That is,
-.EQ (2)
+.EQ (\n+(eq)
 | A sub 0 > | V > -> | A sub v > | V V >
 .EN
 and
-.EQ (3)
+.EQ (\n+(eq)
 | A sub 0 > | H > -> | A sub h > | H H >
 .EN
 .pp
@@ -95,7 +95,7 @@ incoming photon has the polarization given by the linear combination
 $ alpha~| V > + beta~| H > $ - for example, it 
 could be linearly polarized in a direction 45\(de from the vertical, so that $ alpha = beta = 2 sup {-1/2} $ the 
 result of its interaction with the apparatus will be the superposition of equations (2) and (3):
-.EQ (4)
+.EQ (\n+(eq)
 | A sub 0 > ( alpha~ | V > + beta ~| H > ) -> 
 alpha~ | A sub v > | VV > + beta ~ | A sub h > | HH > 
 .EN
@@ -103,9 +103,10 @@ alpha~ | A sub v > | VV > + beta ~ | A sub h > | HH >
 If the apparatus states $ | A sub v > $ and $ | A sub h > $ are not identical, 
 then the two photons emerging from the apparatus are in a mixed state of polarization. 
 If these apparatus states are identical, then the two photons are in the pure state
-.EQ (5)
+.EQ (\n+(eq)
 alpha ~| VV > + beta ~| HH >
 .EN
+.nr pu \n(eq
 .pp
 In neither of these cases is the final state the same as the state
 with two photons both having the polarization $ alpha ~| V > + beta ~| H > $. 
@@ -115,7 +116,7 @@ amplifier, can be written as
 2 sup {-1/2} ( alpha a sub v dagger + beta a sub h dagger ) sup 2 | 0 > =
 alpha sup 2 | VV > + 2 sup {1/2} alpha beta | VH > + beta sup 2 | HH >
 .EN
-which is a pure state different from the one obtained above by superposition [equation (5)).
+which is a pure state different from the one obtained above by superposition [equation (\n(pu)].
 Thus no apparatus exists which will amplify an arbitrary polarization. 
 The above argument does not rule out the possibility of a device which can amplify 
 two special polarizations, such as vertical and horizontal. 
