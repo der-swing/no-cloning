@@ -1,3 +1,4 @@
+\" definition for title of the paper
 .de HD
 .sp
 .ps \\$1
@@ -8,31 +9,29 @@
 .ft P
 .sp
 ..
-
+\" options for reference/footnote formatting (refer)
 .R1
 accumulate
-bracket-label " ("  ) ", "
+abbreviate-label-ranges -
 .R2
 .fo ''\n%'' \h'|108000u'\c
+\"options for making math easier (eqn)
 .EQ
-delim $$
-define > `\(ra`
-define dagger `sup {\(dg}`
+include "math.cfg"
 .EN
 
-
+\" ---------------------------------------
 .HD 12 "A single quantum cannot be cloned"
 .hl
-
-
+\" ---------------------------------------
+\" two column formatting from here
 .2c 5n 
 .po .7i
-.ll 3.3i
+.ll 3.2i
 .nr pi 2n
 .nr ps 30
 .nr eq 0 1
 .ar
-
 
 .pp
 .b
